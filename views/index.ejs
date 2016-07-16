@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body>
+
+    <h1> Following are the titles of given websites: </h1>
+
+    <% if (titles.length) { %>
+	  <ul>
+		<% titles.forEach(function(title){ %>
+		  <li><%= title %></li>
+		<% }) %>
+	  </ul>
+	<% } %>
+</body>
+</html>
